@@ -1,15 +1,19 @@
 body {
   background-color: lightblue;
   font-family: 'Open Sans', sans-serif;
+  margin-left: 30px;
 }
 
 h1 {
   color: navy;
-  margin-left: 20px;
+  font-family: 'Roboto', sans-serif;
 }
 
 table {
   border-collapse: collapse;
-  border-spacing: 0;
+  border-spacing: 10px;
+  text-align: right;
+  vertical-align: center;
+  padding: 10px;
+  border: 1px black;
 }
-
