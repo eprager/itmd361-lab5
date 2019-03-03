@@ -2,18 +2,28 @@ body {
   background-color: lightblue;
   font-family: 'Open Sans', sans-serif;
   margin-left: 30px;
+  text-align: center;
 }
 
-h1 {
+h3 {
   color: navy;
   font-family: 'Roboto', sans-serif;
 }
 
 table {
+  float: center;
   border-collapse: collapse;
   border-spacing: 10px;
   text-align: right;
   vertical-align: center;
   padding: 10px;
-  border: 1px black;
+}
+
+th, td {
+  padding: 10px;
+  text-align: right;
+}
+
+table, th, td {
+  border: 2px solid black;
 }
