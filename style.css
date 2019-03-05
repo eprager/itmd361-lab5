@@ -8,8 +8,8 @@ body {
 }
 
 h1 {
-  text-decoration: underline;
   font-weight: bold;
+  color: white;
 }
 
 h3 {
@@ -38,4 +38,10 @@ table, th, td {
 
 img {
   border-radius: 50%;
+}
+
+hr { 
+  border: 0; 
+	height: 1px; 
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0), navy, rgba(0, 0, 0, 0)); 
 }
